@@ -1,0 +1,34 @@
+{% extends 'index.html' %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="container p-5 text-center">
+                <h1 class="display-1">
+                    @AWE_CODE
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container p-5 text-white rounded" id="texting">
+                <h1 class="display-4">
+                    Hello, Friend!<br>
+                    <!-- Element to contain animated typing -->
+                    <span id="element"></span>
+                    <!-- Load library from the CDN -->
+                    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+                    <script defer type="text/javascript" src="/static/js/index.js" ></script>
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container p-5">
+                <h6 class="display-4" style="font-size: 30px;">
+                    <p style="text-indent:30px; text-align: justify">👋 I am a professional developer specializing in creating Telegram bots and web applications. I have experience with Python, Golang and C++. I provide high-quality software development services tailored to your needs. You can see examples of my previous projects on this site.
+                        I offer consulting services and support for the smooth operation of your software. Contact me to discuss your project requirements. I look forward to working with you.
+                </h6>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}
