@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:40")
+
+body
+  padding: 0 10%
+  background-color: #111
+  color: #FFF
+  font-family: "Open Sans", sans-serif
+  font-size: 2em
+  line-height: 100vh
+  white-space: nowrap
+
+.blinking-cursor
+  user-select: none
+  animation: blink 1s steps(2, start) infinite
+
+  @keyframes blink
+    to
+      visibility: hidden
+
